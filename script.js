@@ -27,3 +27,51 @@ var daysOfTheWeek = [
     "Friday",
     "Saturday"
 ];
+
+function getYear() {
+    var year = document.getElementById("year").value;
+    return year;
+}
+
+function getMonth() {
+    var month = document.getElementById("monthID").value;
+    return month;
+}
+
+function getDate() {
+    var date = document.getElementById("dateID").value;
+    return date;
+}
+
+function getGender() {
+    var gender = document.getElementsByName("gender");
+    for (i = 0; i < gender.length; i++) {
+        if (gender[i].checked) {
+            return gender[i].value;
+        }
+    }
+}
+
+function calculateDay() {
+    var year = parseInt(getYear());
+    var MM = parseInt(getMonth());
+    var DD = parseInt(getDate());
+    var date = new Date (year + "/" + MM + "/" + DD);
+    var d = date.getDay();
+    return d;
+}
+
+function getAkanName() {
+    var gender = getGender();
+    var d = calculateDay();
+    var akanName = "";
+    if (gender === "male") {
+        akanName = maleAkanName[d];
+    } else {
+        akanName = femaleAkanName[d];
+    }
+    return akanName
+}
+function clearForm() {
+    document.getElementById("myform").reset();
+}

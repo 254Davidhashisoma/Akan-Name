@@ -24,6 +24,55 @@
  
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
+
+      <form class="needs-validation" novalidate id="myform">
+        <div class="form-group">
+            <label for="year">Enter the Year You were Born</label>
+            <input type="number" min="1900" max="2020" class="form-control" id="year" placeholder="Example 1992" value="" required>
+            <div class="invalid-feedback">
+                Enter a Valid Year
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="monthID">Select Month:</label>
+            <select class="form-control" id="monthID" required>
+                <option value="">Select Month</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <div class="invalid-feedback">
+                Enter a Valid Month
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="dateID">Enter Day</label>
+            <input type="number" min="1" max="31" class="form-control" id="dateID" placeholder="Example 28" value="" required>
+            <div class="invalid-feedback">Enter a Valid Day</div>
+        </div>
+        <div class="form-check-inline">
+            <label><input type="radio" class="form-check-input" name="gender" id="maleID" value="male" required>Male</label>
+        </div>
+        <div class="form-check-inline">
+            <label><input type="radio" class="form-check-input" name="gender" id="femaleID" value="female" required>Female</label>
+        </div>
+        <br/>
+        <br/>
+        <a href="#enter-details">
+            <button type="button" class="btn btn-primary" onClick="onSubmit()">Submit</button>
+        </a>
+        <button type="button" class="btn btn-danger float-right" onClick="clearForm()">Clear</button>
+    </form>
     
+    <script src="script.js"></script>
 </body>
 </html>
