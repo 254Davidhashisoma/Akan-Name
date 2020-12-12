@@ -28,6 +28,17 @@ var daysOfTheWeek = [
     "Saturday"
 ];
 
+document.getElementById("output").style.display = "none";
+
+function onSubmit(){
+    var day = daysOfTheWeek[calculateDay()];
+    var name = getAkanName();
+    document.getElementById("day").innerHTML = day;
+    document.getElementById("name").innerHTML = name;
+    document.getElementById("output").style.display = "block";
+}
+
+
 function getYear() {
     var year = document.getElementById("year").value;
     return year;
@@ -74,4 +85,5 @@ function getAkanName() {
 }
 function clearForm() {
     document.getElementById("myform").reset();
+    document.getElementById("output").style.display = "none";
 }
