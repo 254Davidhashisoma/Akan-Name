@@ -2,7 +2,7 @@
 Author
 DAVID HASHISOMA MUNYWERE
 
-##Technologies Used:
+## Technologies Used:
 HTML and CSS (BootStrap)
 Flexbox
 JavaScript
@@ -18,10 +18,10 @@ The application should check whether the date and month entered is valid. if eit
  An invalid month should be (m<= 0) or (m > 12)  
 The application should output to the user their Akan name depending on their gender. For example, if a user is male and the result of the calculation is 0, then the application should match that with Kwasi since Kwasi corresponds to Sunday which has an index 0. Hence the output the user will see should be something like “Your Akan name is Kwasi”
 
-#Contact
+# Contact
 Email: davidhashisoma95@gmail.com
 
-#License
+# License
 MIT License
 
 Copyright (c) 2020 DavidHashisomaMunywere
@@ -32,5 +32,5 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#Copyright Information
+# Copyright Information
 Copyright © 2020. Akan Names Project. Developed by David Hashisoma Munywere.
