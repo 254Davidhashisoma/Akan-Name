@@ -15,7 +15,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
 }
-.container .text-center text-danger{text-transform: uppercase;
+.container{
+    text-transform: uppercase;
     text-align: center;
     letter-spacing: 3px;
     font-size: 48px;
