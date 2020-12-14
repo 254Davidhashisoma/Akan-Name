@@ -16,17 +16,11 @@ display-4 text-center{
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
 }
-container{
-    text-transform: uppercase;
+.container{
     text-align: center;
-    letter-spacing: 3px;
-    font-size: 48px;
-    padding-bottom: 20px;
     color: #5543a5;
-    background:linear-gradient(to right, #f4524d 0%, #5543a5 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
 }
-body{
-    background-image:
+   
+.jumbotron{
+    background-image
 }
