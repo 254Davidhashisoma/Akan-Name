@@ -4,10 +4,24 @@
     position: relative;
     box-shadow:0 10px 30px 0px rgb(0,0,0,0.1);
 }
-.display-4 .text-centre{
+.display-4 text-center{
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 3px;
     font-size: 48px;
-    
+    padding-bottom: 20px;
+    color: #5543a5;
+    background:linear-gradient(to right, #f4524d 0%, #5543a5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+.container .text-center text-danger{text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 48px;
+    padding-bottom: 20px;
+    color: #5543a5;
+    background:linear-gradient(to right, #f4524d 0%, #5543a5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
 }
