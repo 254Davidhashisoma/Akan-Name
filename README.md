@@ -1,5 +1,5 @@
 # Akan-Name
-Author
+### Author
 DAVID HASHISOMA MUNYWERE
 
 ## Technologies Used:
